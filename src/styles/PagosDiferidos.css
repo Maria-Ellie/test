@@ -1,0 +1,174 @@
+.bannerContainer {
+  display: flex;
+  align-items: center;
+}
+.bannerTitle {
+  position: absolute;
+  left: 5%;
+  color: white;
+}
+.bodyPadding {
+  padding: 5%;
+  text-align: center;
+}
+.bodytext {
+  font-size: 36px;
+}
+.bannerMeses {
+  width: 100%;
+  border-radius: 30px;
+  background-image: url("../assets/banner_2.jpeg");
+  background-position: left;
+  background-repeat: no-repeat;
+  margin-top: 3rem;
+  justify-content: right;
+  display: flex;
+  padding-top: 3rem;
+  background-size: cover;
+  background-color: aliceblue;
+  margin-bottom: 5rem;
+}
+.bannerMeses p {
+  font-size: 32px;
+  color: white;
+  width: 40%;
+  margin-right: 5rem;
+  text-align: left;
+}
+.bannerMeses .caption {
+  font-size: 20px;
+  width: 100%;
+}
+.bannerSteps {
+  border-radius: 30px;
+  background-color: #f1f1f1;
+  display: flex;
+  padding: 3rem;
+  text-align: left;
+}
+.bannerSteps .title {
+  font-size: 32px;
+}
+.step {
+  border-radius: 1000px;
+  border: 2px solid #f87778;
+  padding: 0.5rem;
+  width: 20px;
+  height: 20px;
+  color: #f87778;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerSteps .stepText {
+  font-size: 24px;
+  margin-left: 1rem;
+}
+.cel1:hover .stepText {
+  font-weight: 600;
+  font-size: 26px;
+}
+.cel2:hover .stepText {
+  font-weight: 600;
+  font-size: 26px;
+}
+.cel3:hover .stepText {
+  font-weight: 600;
+  font-size: 26px;
+}
+.cel4:hover .stepText {
+  font-weight: 600;
+  font-size: 26px;
+}
+.titleSection {
+  font-size: 25px;
+  text-align: left;
+  margin-top: 5rem;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+}
+.link {
+  height: 200px;
+  min-width: 200px;
+  background-color: #f87778;
+  margin: 1rem;
+}
+.footer {
+  height: 150px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+@media only screen and (max-width: 1100px) {
+  .bannerMeses {
+    padding-top: 1rem;
+    background-position-x: 30%;
+  }
+  .bannerMeses p {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .bannerMeses {
+    width: 100%;
+    background-image: url("../assets/banner_2_1.webp");
+    background-size: cover;
+    background-position-y: 70%;
+  }
+  .bannerMeses p {
+    margin: 3rem;
+    width: 100%;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+  }
+  .bannerMeses p p {
+    margin: 0px;
+    margin-bottom: 300px;
+  }
+  .bannerSteps {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bannerSteps div:first-child {
+    margin-bottom: 2rem;
+  }
+  .bannerSteps .stepText {
+    font-size: 20px;
+    margin-left: 1rem;
+  }
+
+  .cel1:hover .stepText {
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .cel2:hover .stepText {
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .cel3:hover .stepText {
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .cel4:hover .stepText {
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .step {
+    border: 1px solid #f87778;
+    padding: 0.3rem;
+    width: 12px;
+    height: 12px;
+    color: #f87778;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+}
